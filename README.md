@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# IELTS Mock Test Platform - Frontend Application
 
-## Getting Started
+## 🚀 O'rnatish va Ishga Tushirish
 
-First, run the development server:
+### 1. frontendni ishga tushurish
+
+````bash
+npm install
+
+### 2. dependency larni O'rnatish
 
 ```bash
+npm install
+
+# frontni ishga tushiring
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+````
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Frontend: http://localhost:3000 da ishga tushadi
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔧 Texnologiyalar
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Frontend (Next.js)
 
-## Learn More
+- **Framework**: Next.js 14
+- **Styling**: Tailwind CSS
+- **HTTP Client**: Axios
+- **Language**: TypeScript
+- **UI**: Shadcn/ui
 
-To learn more about Next.js, take a look at the following resources:
+## 📋 Xususiyatlar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Admin Panel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ✅ Savol qo'shish (CRUD)
+- ✅ Savollarni tahrirlash
+- ✅ Savollarni o'chirish
+- ✅ Barcha savollarni ko'rish
 
-## Deploy on Vercel
+### Foydalanuvchi
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ✅ Testni boshlash
+- ✅ Savollarni javoblash
+- ✅ Natijani olish (ball va foiz)
+- ✅ Testni qayta topshirish
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🖥️ Sahifalar
+
+1. **Home** (`/`) - Asosiy sahifa, test boshlash yoki admin panel
+2. **Test** (`/test`) - Test sahifasi, savollar va radio buttonlar
+3. **Result** (`/result`) - Natija sahifasi, ball va foiz
+4. **Admin** (`/admin`) - Admin panel, CRUD operatsiyalar
+
+## 🎯 Foydalanish
+
+1. **Admin sifatida:**
+
+   - `/admin` sahifasiga o'ting
+   - "Add New Question" tugmasini bosing
+   - Savol matnini kiriting
+   - 4 ta javob variantini kiriting
+   - To'g'ri javobni belgilang
+   - Savolni saqlang
+
+2. **Test topshiruvchi sifatida:**
+   - `/test` sahifasiga o'ting
+   - Barcha savollarga javob bering
+   - "Submit Test" tugmasini bosing
+   - Natijangizni `/result` sahifasida ko'ring
