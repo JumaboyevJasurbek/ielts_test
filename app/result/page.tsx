@@ -56,7 +56,7 @@ export default function ResultPage() {
             Test Results
           </h1>
           <p className="text-gray-600">
-            Here's how you performed on the IELTS mock test
+            Here`s how you performed on the IELTS mock test
           </p>
         </div>
 
